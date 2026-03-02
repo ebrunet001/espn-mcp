@@ -2,7 +2,7 @@
 
 > Connect AI assistants to live ESPN sports data via MCP — scores, standings, stats, odds, news, and schedules across 25+ leagues and sports.
 
-[![Run on Apify](https://img.shields.io/badge/Run%20on-Apify-blue)](https://apify.com/mrbridge/espn-mcp-server?fpr=ebrunet001)
+**[Try it on Apify Store](https://apify.com/mrbridge/espn-mcp-server?fpr=ebrunet001)** | Pay-per-event | Free tier available
 
 ## Features
 
@@ -23,19 +23,17 @@
 
 ## Quick Start
 
-Connect to the MCP server using the Streamable HTTP endpoint:
+1. **[Open the Actor on Apify](https://apify.com/mrbridge/espn-mcp-server?fpr=ebrunet001)** and get your free API token
+2. Connect your AI client using the MCP endpoint below
+3. Start asking about any sport, team, player, or game
+
+### Claude Desktop
+
+Go to **Settings → MCP Servers → Add Custom Connector** and paste:
 
 ```
 https://mrbridge--espn-mcp-server.apify.actor/mcp?token=YOUR_APIFY_TOKEN
 ```
-
-1. [Get your free Apify API token](https://console.apify.com/account/integrations?fpr=ebrunet001)
-2. Add the URL above as a custom MCP connector in your AI client
-3. Start asking about any sport, team, player, or game
-
-### Claude Desktop Setup
-
-Go to **Settings → MCP Servers → Add Custom Connector** and paste the URL above (replace `YOUR_APIFY_TOKEN` with your actual token).
 
 ## Example Prompts
 
